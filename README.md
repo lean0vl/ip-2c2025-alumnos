@@ -1,3 +1,17 @@
+Integrantes: Daniel Vanney, Leandro Villalba, Florencia Ocampos
+
+Algoritmos implementados: 
+Bubble(Florencia Ocampos)
+Insertion(Daniel Vanney)
+Selection(Leandro Villalba)
+Quick(Leandro Villalba)
+
+
+Notas:
+Insertion: Se decidió utilizar la variable i para indicar el valor del elemento actual que será insertado y ordenado. Se decidió utilizar la variable j como cursor de desplazamiento hacia los primeros índices.
+
+
+
 # TP — Visualización de algoritmos de ordenamiento
 
 ## Objetivos
