@@ -1,12 +1,12 @@
 Integrantes: Daniel Vanney, Leandro Villalba, Florencia Campos
 
-###IMPLEMENTACIÓN BUBBLE SORT-Florencia Campos
+### IMPLEMENTACIÓN BUBBLE SORT-Florencia Campos
 Nota:Se implementó con puntero i y j, asegurando que los indices no salgan de rango.
 
-###IMPLEMENTACIÓN INSERTION SORT-Daniel Vanney
+### IMPLEMENTACIÓN INSERTION SORT-Daniel Vanney
 Nota: Se decidió utilizar la variable i para indicar el valor del elemento actual que será insertado y ordenado. Se decidió utilizar la variable j como cursor de desplazamiento hacia los primeros índices.
 
-###IMPLEMENTACIÓN SELECTION SORT Y QUICK SORT-Leandro Villalba
+### IMPLEMENTACIÓN SELECTION SORT Y QUICK SORT-Leandro Villalba
 Nota:
 
 
