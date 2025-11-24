@@ -1,13 +1,14 @@
-Integrantes: Daniel Vanney, Leandro Villalba, Florencia Ocampos
+Integrantes: Daniel Vanney, Leandro Villalba, Florencia Campos
 
 Algoritmos implementados: 
-Bubble(Florencia Ocampos)
+Bubble Sort(Florencia Campos)
 Insertion(Daniel Vanney)
 Selection(Leandro Villalba)
 Quick(Leandro Villalba)
 
 
 Notas:
+Bubble Sort:Se implementó con puntero i y j, asegurando que los indices no salgan de rango.
 Insertion: Se decidió utilizar la variable i para indicar el valor del elemento actual que será insertado y ordenado. Se decidió utilizar la variable j como cursor de desplazamiento hacia los primeros índices.
 
 
