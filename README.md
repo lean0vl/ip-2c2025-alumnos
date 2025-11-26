@@ -1,3 +1,29 @@
+Integrantes: Daniel Vanney, Leandro Villalba, Florencia Campos
+
+### IMPLEMENTACIÓN BUBBLE SORT - Florencia Campos
+
+**Nota:** Se implementó con puntero i y j, asegurando que los índices no salgan de rango.
+
+---
+
+### IMPLEMENTACIÓN INSERTION SORT - Daniel Vanney
+
+**Nota:** Se decidió utilizar la variable i para indicar el valor del elemento actual que será insertado y ordenado.  
+Se decidió utilizar la variable j como cursor de desplazamiento hacia los primeros índices.
+
+---
+
+### IMPLEMENTACIÓN SELECTION SORT Y QUICK SORT - Leandro Villalba
+
+**Nota:** (SELECTION SORT) Se usaron punteros i para la posición actual, j para recorrer el resto de la lista y min_idx para recordar el índice mínimo encontrado. En cada pasada se busco el elemento menor y fue intercambiado con la posición i.
+
+**Nota:** (QUICK SORT): Se usó una pila de segmentos (pares inicio/fin) y el último elemento como separador. Con los índices i y j se fue particionando cada segmento antes de continuar con los siguientes.
+
+
+
+
+
+
 # TP — Visualización de algoritmos de ordenamiento
 
 ## Objetivos
