@@ -1,7 +1,6 @@
 items = []
 n = 0
 
-
 pila = []          
 inicio = 0
 fin = 0
@@ -10,22 +9,26 @@ j = 0
 separador = 0         
 fase = ""
 
+swaps = 0     # contador de swaps
+
 
 def init(vals):
-    global items, n, pila, fase
+    global items, n, pila, fase, swaps
     items = list(vals)
     n = len(items)
 
     pila = [(0, n - 1)]
     fase = ""
+    swaps = 0     # reiniciar contador
 
 
 def step():
-    global pila, inicio, fin, i, j, separador, fase, items
+    global pila, inicio, fin, i, j, separador, fase, items, swaps
 
     #tomar un nuevo segmento
     if fase == "":
         if not pila:
+            print("Swaps totales (Quick Sort):", swaps)
             return {"done": True}
 
         inicio, fin = pila.pop()
@@ -52,6 +55,7 @@ def step():
             hacer_swap = (items[i] != items[fin])
             if hacer_swap:
                 items[i], items[fin] = items[fin], items[i]
+                swaps += 1    # ← contar swap final
 
             indice_separador = i
 
@@ -74,6 +78,7 @@ def step():
             hacer_swap = (items[i] != items[j])
             if hacer_swap:
                 items[i], items[j] = items[j], items[i]
+                swaps += 1    # ← contar swap normal
 
             viejo_j = j
             j += 1
