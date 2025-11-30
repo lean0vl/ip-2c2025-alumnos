@@ -21,7 +21,7 @@ def step():
     # - Si i >= n: devolver {"done": True}.
     if i >= n:
         print("Insertion Sort – swaps totales:", swaps)
-        return {"a": None, "b": None, "swap": False, "done": True}
+        return {"a": i, "b": j, "swap": False, "done": True}
 
     # - Si j es None: empezar desplazamiento para el items[i] (p.ej., j = i) y devolver un highlight sin swap.
     if j is None:
@@ -41,4 +41,4 @@ def step():
     # - Si ya no hay que desplazar: avanzar i y setear j=None.
     i += 1
     j = None
-    return {"a": None, "b": None, "swap": False, "done": False}
+    return {"a": i, "b": j, "swap": False, "done": False}
