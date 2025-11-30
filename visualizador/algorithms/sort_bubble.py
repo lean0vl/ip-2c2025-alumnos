@@ -25,10 +25,12 @@ def step():
         items[a],items[b]=items[b],items[a]
         swap=True # 2) Si corresponde, hacer el intercambio real en items[a], items[b] y marcar swap=True.
     
-    j+=1
-    if j>=n-i-1:
-        j=0
-        i+=1# 3) Avanzar punteros (preparar el próximo paso).
+    # 3) Avanzar punteros (preparar el próximo paso).
+    if j+1<n-i-1: #si todavia quedan comparaciones
+        j+=1  
+    else:  
+        j=0     #reinicia j y avanza i
+        i+=1
     return {"a": a, "b": b, "swap": swap, "done": False}
     # 4) Devolver {"a": a, "b": b, "swap": swap, "done": False}.
     #
