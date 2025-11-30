@@ -13,13 +13,13 @@ Se decidió utilizar la variable j como cursor de desplazamiento hacia los prime
 
 ---
 
-### IMPLEMENTACIÓN SELECTION SORT Y QUICK SORT - Leandro Villalba
+### IMPLEMENTACIÓN SELECTION SORT, QUICK SORT Y SHELL SORT - Leandro Villalba
 
 **Nota:** (SELECTION SORT) Se usaron punteros i para la posición actual, j para recorrer el resto de la lista y min_idx para recordar el índice mínimo encontrado. En cada pasada se busco el elemento menor y fue intercambiado con la posición i.
 
 **Nota:** (QUICK SORT): Se usó una pila de segmentos (pares inicio/fin) y el último elemento como separador. Con los índices i y j se fue particionando cada segmento antes de continuar con los siguientes.
 
-
+**Nota:** (SHELL SORT): Se usó un salto inicial n//2, reduciéndolo a la mitad en cada fase y se hace una inserción con ese salto. Las fases controlan el avance entre saltos, índices y movimientos.
 
 
 
